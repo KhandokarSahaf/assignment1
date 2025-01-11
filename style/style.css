@@ -88,6 +88,7 @@ nav div button{
 }
 /* all button */
 .btn-1{
+    border: #28a745;
     color: rgb(255, 255, 255);
     border-radius: 8px;
     background: rgb(0, 106, 80);
@@ -128,6 +129,24 @@ nav div button{
     text-align: left;
    
 }
+.button-primary{
+    border: #28a745;
+    border-radius: 8px;
+    margin: 0px 48px;
+    padding: 13px 26px 13px 26px;
+    background: rgb(0, 106, 80);
+}
+.button-text{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+
+    
+    text-align: left; 
+}
+
 /* box */
 .bd20{
     display: flex;
@@ -200,7 +219,6 @@ nav div button{
 }
 .box-03{
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(247, 235, 207);
     padding: 24px;
@@ -221,4 +239,55 @@ nav div button{
 .flex{
     padding: 0px;
     margin: 12px 0px;
+}
+/* satellite design */
+.news-letter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 48px;
+    border-radius: 24px;
+    width: 1280px;
+    background: rgb(255, 255, 255);
+    margin: 32px 0px;
+}
+.news-m{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.satelite-img{
+    width: 408px;
+    margin: 0px 32px;
+    border-radius: 24px;
+}
+.primary-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+.news-heading{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    
+}
+div button {
+    margin-top: 32px;
+}
+.news-btn{
+    border:rgb(9, 161, 92);
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+}
+.news-x{
+    display: flex;
 }
